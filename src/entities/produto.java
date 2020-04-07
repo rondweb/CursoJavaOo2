@@ -18,4 +18,12 @@ public class produto {
 	{
 		this.quantity -= quantity;
 	}
+	
+	public String toString() {
+		return this.name 
+				+ ", price " 
+				+ String.format("%.2f", this.price)  
+				+ " Total $" 
+				+ String.format("%.2f", this.TotalValueInStock());
+	}
 }
