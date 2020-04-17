@@ -5,6 +5,16 @@ public class produto {
 	public double price;
 	public int quantity;
 	
+	public produto() {
+		
+	}
+	
+	public produto(String name, double price)
+	{
+		this.name = name;
+		this.price = price;
+	}
+	
 	public produto(String name, int quantity, double price)
 	{
 		this.name = name;
