@@ -26,12 +26,12 @@ public class Program {
 		
 		System.out.println(prod);
 		
-		System.out.print("Add some items to the stock");
+		System.out.print("Add some items to the stock ");
 		prod.AddProducts(sc.nextInt());
 		
 		System.out.println(prod);
 
-		System.out.print("Remove some items from the stock");
+		System.out.print("Remove some items from the stock ");
 		prod.RemoveProducts(sc.nextInt());
 
 		System.out.println(prod);
